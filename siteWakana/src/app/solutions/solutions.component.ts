@@ -33,31 +33,31 @@ export class SolutionsComponent implements OnInit, OnDestroy {
         id: 1,
         title: 'Application Mobile ',
         description: 'Notre première solution propose une approche unique qui répond aux défis actuels avec des technologies de pointe et une méthodologie éprouvée.',
-        imageUrl: 'assets/images/img2.jpg',
+        imageUrl: 'assets/images/imgs2.jpg',
       },
       {
         id: 2,
         title: 'Solution Intelligente 2',
         description: 'La deuxième solution combine intelligence artificielle et expertise humaine pour créer un équilibre parfait entre technologie et compréhension des besoins.',
-        imageUrl: 'assets/images/img1.jpg',
+        imageUrl: 'assets/images/imgsol1.jpg',
       },
       {
         id: 3,
         title: 'Solution Durable 3',
         description: 'Notre approche durable intègre les meilleures pratiques environnementales tout en maintenant une efficacité opérationnelle exceptionnelle.',
-        imageUrl: 'assets/images/img3.jpg',
+        imageUrl: 'assets/images/imgs3.jpg',
       },
       {
         id: 4,
         title: 'Solution Efficace 4',
         description: 'Optimisez vos processus avec notre quatrième solution qui augmente la productivité tout en réduisant les coûts opérationnels de manière significative.',
-        imageUrl: 'assets/images/img6.jpg',
+        imageUrl: 'assets/images/imgf.jpg',
       },
       {
         id: 5,
         title: 'Solution Révolutionnaire 5',
         description: 'Notre solution la plus avancée bouleverse les standards du marché avec une approche révolutionnaire qui redéfinit les attentes des utilisateurs.',
-        imageUrl: 'assets/images/img5.jpg',
+        imageUrl: 'assets/images/imgs1.jpg',
       }
     ];
 

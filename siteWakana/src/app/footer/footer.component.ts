@@ -1,5 +1,5 @@
 // components/footer/footer.component.ts
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
@@ -10,10 +10,13 @@ import { FormsModule } from '@angular/forms';
   imports: [CommonModule, RouterLink, FormsModule],
   templateUrl:'./footer.component.html',
   styleUrls:['./footer.component.css']
-    
+
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
   email: string = '';
+  currentYear: number = new Date() .getFullYear();
+  ngOnInit() {
+  }
 
   onSubscribe() {
     // Implémentez ici la logique d'inscription à la newsletter

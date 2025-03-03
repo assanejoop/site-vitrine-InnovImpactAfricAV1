@@ -4,7 +4,7 @@ import { ServicesComponent } from '../services/services.component';
 import { SolutionsComponent } from '../solutions/solutions.component';
 import { ProjectsComponent } from '../projects/projects.component';
 import { MethodsComponent } from '../methods/methods.component';
-import { NewsComponent } from '../news/news.component';
+// import { NewsComponent } from '../news/news.component';
 import { PartnersComponent } from '../partners/partners.component';
 import { VideoBannerComponent } from '../video-banner/video-banner.component';
 import { StatsBannerComponent } from '../stats-banner/stats-banner.component';
@@ -21,7 +21,7 @@ import {RealisationsComponent} from "../realisations/realisations.component";
     ProjectsComponent,
     MethodsComponent,
     RealisationsComponent,
-    NewsComponent,
+    // NewsComponent,
     PartnersComponent,
     StatsBannerComponent,
 
